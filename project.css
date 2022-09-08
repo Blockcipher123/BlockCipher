@@ -76,6 +76,21 @@
 
 
 
+/*@media (max-width: 360px){
+    .right{
+        clip-path: circle(45% at right -20%);
+    }
+    .left{
+        transform: rotate(120deg);
+        top: -26%;
+        left: -80%;
+        height: 500px;
+        width: 500px;
+    }
+}
+
+*/
+
 
 
 

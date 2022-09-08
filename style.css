@@ -169,40 +169,22 @@ body{
     }*/
 
 }
-/*
-.div3{
-    right: 80%;
-    bottom: 60%;
-    background-color: #AFB4FF;
-    height: 700px;
-    width: 700px;
-    border-radius: 50%;
-    position: fixed;
-    transition: 0.5s;
-} 
 
-.div3:hover{
-    height: 900px;
-    width: 900px;
+@media (max-width: 360px){
+    .right{
+        clip-path: circle(45% at right -20%);
+    }
+    .left{
+        transform: rotate(120deg);
+        top: -26%;
+        left: -80%;
+        height: 500px;
+        width: 500px;
+    }
 }
 
-@media (max-width: 650px) {
-    .div3{
-        right: 70%;
-        height: 400px;
-        width: 400px;
-        bottom: 75%;
-    }
-    .div3:hover{
-        height: 400px;
-        width: 400px;
-    }
 
-} */
 
-/* .c {
-    color: #df67ef;
-} */
 
 /* ================================================== Start left-Bottom animation */
 
@@ -394,7 +376,7 @@ body{
     transform: scale(1.1);
     /* transform: scale(1.5); */
     filter: grayscale(50%);
-    transform: rotate(180deg);
+    /*transform: rotate(180deg);*/
 }
 
 /* .self-img:hover img{
