@@ -1,4 +1,4 @@
-.right{
+.right-1{
     position: absolute;
     top: 0;
     left: 0;
@@ -8,7 +8,7 @@
     clip-path: circle(40% at right -20%);
 }
 
-.left{
+.left-1{
     position: absolute;
     top: 0;
     left: 0;
@@ -17,6 +17,41 @@
     background: #AFB4FF;
     clip-path: circle(40% at left -20%);
 }
+
+
+@media (max-width: 650px) {
+    .left-1{
+        /*ri*/
+        transform: rotate(120deg);
+        top: -22%;
+        left: -35%;
+        height: 500px;
+        width: 500px;
+        /*bottom: 0%;*/
+    }
+    .right-1{
+        clip-path: circle(50% at right -20%);
+    }
+
+}
+
+@media (max-width: 360px){
+    .right-1{
+        clip-path: circle(45% at right -20%);
+    }
+    .left-1{
+        transform: rotate(120deg);
+        top: -26%;
+        left: -80%;
+        height: 500px;
+        width: 500px;
+    }
+}
+
+
+
+
+
 /* =======================================================> Project ============================================================<*/
 
 .project-content{
@@ -74,22 +109,17 @@
     transition: 0.5s;
 }
 
-
-
-/*@media (max-width: 360px){
-    .right{
-        clip-path: circle(45% at right -20%);
+@media (max-width: 360px){
+    .first-project{
+        height: 150px;
+        width: 260px;
     }
-    .left{
-        transform: rotate(120deg);
-        top: -26%;
-        left: -80%;
-        height: 500px;
-        width: 500px;
+    .visit-1 p{
+        color: magenta
+        font-size: 19px;
     }
+
 }
-
-*/
 
 
 
@@ -112,6 +142,19 @@
     margin-top: 7%;
 }
 
+@media (max-width: 360px){
+    .first-project-2{
+        height: 150px;
+        width: 260px;
+    }
+/*    .visit-1 p{
+        color: magenta
+        font-size: 19px;
+    }*/
+
+}
+
+
 
 .first-project-3{
     background-image: url("img/project/window-11.jpg");
@@ -129,6 +172,20 @@
     transition: 0.5s;
 }
 
+
+@media (max-width: 360px){
+    .first-project-3{
+        height: 150px;
+        width: 260px;
+    }
+/*    .visit-1 p{
+        color: magenta
+        font-size: 19px;
+    }*/
+
+}
+
+
 .first-project-4{
     background-image: url("img/project/free-website.jpg");
     background-size: 400px 250px;
@@ -144,6 +201,20 @@
     cursor: pointer;
     transition: 0.5s;
 }
+
+
+@media (max-width: 360px){
+    .first-project-4{
+        height: 150px;
+        width: 260px;
+    }
+/*    .visit-1 p{
+        color: magenta
+        font-size: 19px;
+    }*/
+
+}
+
 
 .first-project:hover{
     box-shadow: 4px 4px 8px 2px  #AFB4FF;
