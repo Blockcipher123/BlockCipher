@@ -1,0 +1,29 @@
+.about{
+	margin-top: 2%;
+	text-align: center;
+}
+
+.text-p{
+	line-height: 2.4;
+	margin-top: 4%;
+	margin-left: 20%;
+	margin-right: 20%;
+	/*position: absolute;*/
+	font-family: cursive;
+}
+
+@media (max-width: 650px) {
+	.text-p{
+		margin-top: 13%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+}
+
+
+.Block_Cipher{
+	color: #ff8787;
+}
+
+
