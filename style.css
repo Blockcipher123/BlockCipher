@@ -100,7 +100,7 @@ body{
 
 @media (max-width: 550px){
     .container{
-        display: none;
+        /*display: none;*/
     }
 }
 
@@ -398,9 +398,11 @@ body{
 }
 
 .bar{
+    /*text-align: right;*/
     display: block;
     width: 25px;
     height: 3px;
+    /*margin-left: 10%;*/
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -408,8 +410,10 @@ body{
 
 }
 
-@media(max-width: 600px){
+@media(max-width: 700px){
     .hamburger{
+        margin-top: 10%;
+        margin-left: 90%;
         display: block;
 
     }
@@ -428,11 +432,22 @@ body{
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    /*.nav-menu{
+    .nav-menu{
         position: fixed;
-        left: -100;
-    }*/
+        left: -100%;
+        gap: 0;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
 
+    }
+
+    .nav-menu.active{
+        left: 0;
+
+    }
 
 
 
