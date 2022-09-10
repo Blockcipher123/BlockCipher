@@ -21,9 +21,20 @@
 
 }
 
+@media (max-width: 360px){
+	.text-p{
+		margin-top: 13%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
+
+
 
 .Block_Cipher{
 	color: #ff8787;
 }
 
-
+.coding-web{
+	
+}
