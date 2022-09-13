@@ -56,6 +56,7 @@
 
 .project-content{
     margin: 5%;
+    /*margin-bottom: 7%;*/
     text-align: center;
 }
 
@@ -95,7 +96,7 @@
 
 
 .first-project{
-    background-image: url("img/project/quest-to-code.png");
+    background-image: url("project/quest-to-code.png");
     background-size: 400px 250px;
     border: 5px solid #AFB4FF;
     margin-left: 14%;
@@ -125,7 +126,7 @@
 
 
 .first-project-2{
-    background-image: url("img/project/blockcipher-music-room.png");
+    background-image: url("project/blockcipher-music-room.png");
     background-size: 400px 250px;
     border: 5px solid #AFB4FF;
     margin-left: 5%;
@@ -140,6 +141,7 @@
 }
 .con{
     margin-top: 7%;
+    /*margin-bottom: 5%;*/
 }
 
 @media (max-width: 360px){
@@ -157,7 +159,7 @@
 
 
 .first-project-3{
-    background-image: url("img/project/window-11.jpg");
+    background-image: url("project/window-11.jpg");
     background-size: 400px 250px;
     border: 5px solid #AFB4FF;
     margin-left: 14%;
@@ -187,7 +189,7 @@
 
 
 .first-project-4{
-    background-image: url("img/project/free-website.jpg");
+    background-image: url("project/free-website.jpg");
     background-size: 400px 250px;
     border: 5px solid #AFB4FF;
     margin-left: 5%;
