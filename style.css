@@ -2,15 +2,24 @@
     padding: 0;
     margin: 0;
 }
+body{
+    /* cursor: cell; */
+    /*cursor: url('image-path.png'),auto*/
+}
 
 h1{
-    /* margin: 5%; */
+    /*display: fle;*/
+    /*position: fi;*/
+    /*margin-top: 5%;*/
     font-size: 562.5%;
     text-align: center;
-    /* font-family: cursive; */
     font-family: 'Sacramento', cursive;
     color: #8F54CE;
 }
+h3{
+    font-size: 30px;
+}
+
 
 @media (max-width: 650px){
     h1{
@@ -113,17 +122,6 @@ body{
 
 
 
-/* .div2{
-    left: 80%;
-    bottom: 60%;
-    background-color: #AFB4FF;
-    height: 700px;
-    width: 700px;
-    border-radius: 50%;
-    position: fixed;
-    transition: 0.5s;
-}  */
-
 .right{
     position: absolute;
     top: 0;
@@ -131,18 +129,10 @@ body{
     width: 100%;
     height: 100%;
     background: #AFB4FF;
-    clip-path: circle(40% at right -20%);
+    clip-path: circle(53% at right -20%);
 }
 
-.left{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #AFB4FF;
-    clip-path: circle(40% at left -20%);
-}
+
 
 /*.left:hover{
     height: 900px;
@@ -150,16 +140,8 @@ body{
 }
 */
 @media (max-width: 650px) {
-    .left{
-        /*ri*/
-        transform: rotate(120deg);
-        top: -22%;
-        left: -35%;
-        height: 500px;
-        width: 500px;
-        /*bottom: 0%;*/
-    }
-    .right{
+    .right{*/
+        transition: 0.5s;
         clip-path: circle(50% at right -20%);
     }
 
@@ -169,13 +151,7 @@ body{
     .right{
         clip-path: circle(45% at right -20%);
     }
-    .left{
-        transform: rotate(120deg);
-        top: -26%;
-        left: -80%;
-        height: 500px;
-        width: 500px;
-    }
+
 }
 
 
@@ -451,4 +427,292 @@ body{
 
 
 
+}
+
+/*============================== Project ===================================*/
+/* ========================= div ==================== */
+
+.visit-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    /*margin-bottom: 70%;*/
+    margin-left: 40%;
+    margin-right: 60%;
+    text-decoration: none;
+}
+
+.visit-1 p{
+    color: magenta;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 60px;
+    border-radius: 50%;
+    border: 5px solid #AFB4FF;
+    transition: 0.5s;
+
+}
+.visit-1 p:hover{
+    color: white;
+    background-color: #8F54CE;
+}
+
+
+
+.first-project{
+    background-image: url("css/project/quest-to-code.png");
+    background-size: 400px 250px;
+    border: 5px solid #AFB4FF;
+    margin-left: 14%;
+    margin-right: 12%;
+    float: left;
+    height: 250px;
+    width: 400px;
+    border-radius: 5%;
+    background-color: #AFB4FF;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+@media (max-width: 360px){
+    .first-project{
+        height: 150px;
+        width: 260px;
+    }
+    .visit-1 p{
+        color: magenta
+        font-size: 19px;
+    }
+
+}
+
+
+.first-project-2{
+    background-image: url("css/project/blockcipher-music-room.png");
+    background-size: 400px 250px;
+    border: 5px solid #AFB4FF;
+    margin-left: 5%;
+    float: left;
+    /* border-radius: 5%; */
+    height: 250px;
+    width: 400px;
+    border-radius: 5%;
+    background-color: #AFB4FF;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.con{
+    margin-top: 7%;
+    /*margin-bottom: 5%;*/
+}
+
+@media (max-width: 360px){
+    .first-project-2{
+        height: 150px;
+        width: 260px;
+    }
+/*    .visit-1 p{
+        color: magenta
+        font-size: 19px;
+    }*/
+
+}
+
+
+
+.first-project-3{
+    background-image: url("css/project/window-11.jpg");
+    background-size: 400px 250px;
+    border: 5px solid #AFB4FF;
+    margin-left: 14%;
+    margin-right: 12%;
+    margin-top: 6%;
+    float: left;
+    height: 250px;
+    width: 400px;
+    border-radius: 5%;
+    background-color: #AFB4FF;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+@media (max-width: 360px){
+    .first-project-3{
+        height: 150px;
+        width: 260px;
+    }
+/*    .visit-1 p{
+        color: magenta
+        font-size: 19px;
+    }*/
+
+}
+
+
+.first-project-4{
+    background-image: url("css/project/free-website.jpg");
+    background-size: 400px 250px;
+    border: 5px solid #AFB4FF;
+    margin-left: 5%;
+    margin-top: 6%;
+    float: left;
+    /* border-radius: 5%; */
+    height: 250px;
+    width: 400px;
+    border-radius: 5%;
+    background-color: #AFB4FF;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+@media (max-width: 360px){
+    .first-project-4{
+        float: ;
+        height: 150px;
+        width: 260px;
+    }
+
+}
+
+@media (max-width: 550px){
+    .first-project-4{
+        /*float: none;*/
+    }
+
+}
+
+
+.first-project:hover{
+    box-shadow: 4px 4px 8px 2px  #AFB4FF;
+}
+
+
+.first-project-2:hover{
+    box-shadow: 4px 4px 8px 2px  #AFB4FF;
+}
+
+
+.first-project-3:hover{
+    box-shadow: 4px 4px 8px 2px  #AFB4FF;
+}
+
+
+@media (max-width: 550px){
+    .first-project{
+        margin-left: 6%;
+        margin-right: 2%;
+        margin-bottom: 5%;
+    }
+
+    .first-project-2{
+        margin-top: 6%;
+        margin-left: 6%;
+    }
+
+
+
+    .first-project-3{
+        margin-left: 6%;
+        margin-right: 2%;
+        margin-bottom: 5%;
+    }
+
+}
+
+
+
+
+
+
+
+/* ========================== end div ============================= */
+
+
+.more-project{
+    margin-top: 50%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.more-project a{
+    font-size: 20px;
+    border: 3px solid #8F54CE;
+    text-decoration: none;
+    padding: 15px 27px;
+    border-radius: 7%;
+    transition: 0.5s;
+}
+
+.more-project a:hover{
+    color: white;
+    background: #8F54CE;
+}
+
+@media (max-width: 650px) {
+    .more-project a{
+        display: none;
+        /*margin-top: 30%;*/
+        /*margin-left: 40%;*/
+    }
+
+}
+
+
+/* ============================= Contact ================ */
+
+.massage{
+    /*margin-top: 20%;*/
+}
+
+.info {
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.info i {
+    font-size: 20px;
+    color: #4753f7;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #dff3fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.info i:hover{
+    background: #AFB4FF;
+    color: #fff;
+}
+
+.info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #050d18;
+}
+
+.info p {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #173b6c;
+}
+
+
+
+
+.email{
+    margin-left: 20%;
+    margin-top: 5%;
 }
