@@ -25,14 +25,9 @@ h1{
 	h1{
 		margin-top: 20%;
 	}
-}5
-
-
-.about:hover{
-
-	border: 5px solid gray;
-	/* box-shadow: 4px 4px 8px 2px  gray; */
 }
+
+
 
 
 @media(max-width: 600px){
@@ -62,9 +57,10 @@ h1{
 
 @media (max-width: 360px){
 	.text-p{
+
 		margin-top: 13%;
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 8%;
+		margin-right: 8%;
 	}
 }
 

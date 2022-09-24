@@ -8,14 +8,11 @@ body{
 }
 
 h1{
-    /*display: fle;*/
-    /*position: fi;*/
-    /*margin-top: 5%;*/
     font-size: 562.5%;
     text-align: center;
     font-family: 'Sacramento', cursive;
     color: #8F54CE;
-    /*margin-top: 5%;*/
+    margin-top: 5%;
 }
 h3{
     font-size: 30px;
@@ -351,14 +348,20 @@ body{
     /*transform: rotate(180deg);*/
 }
 
-/* .self-img:hover img{
-} */
+
 
 
 
 /* ======================================================= About =================================================================== */
 .abouts{
     margin-top: 5%;
+}
+
+@media (max-width: 360px){
+    .abouts{
+        margin-top: 3%;
+    }
+
 }
 
 
@@ -369,72 +372,16 @@ body{
 
 
 
-/*============ Nav small scree ===========*/
-
-
-.hamburger{
-    display: none;
-    cursor: pointer;
-
-}
-
-.bar{
-    /*text-align: right;*/
-    display: block;
-    width: 25px;
-    height: 3px;
-    /*margin-left: 10%;*/
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: white;
-
-}
-
-@media(max-width: 700px){
-    .hamburger{
-        margin-top: 10%;
-        margin-left: 90%;
-        display: block;
-
-    }
-
-    .hamburger.active .bar:nth-child(2){
-        opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1){
-        /*opacity: 1;*/
-        transform: translateY(8px) rotate(45deg);
-    }
-    
-    .hamburger.active .bar:nth-child(3){
-        /*opacity: 1;*/
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .nav-menu{
-        position: fixed;
-        left: -100%;
-        gap: 0;
-        flex-direction: column;
-        background-color: black;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-
-    }
-
-    .nav-menu.active{
-        left: 0;
-
-    }
-
-
-
-}
-
 /*============================== Project ===================================*/
+
+
+
+
+
+
+
+/* ============================= End Project ===================================*/
+
 
 /* ============================= Contact ================ */
 
