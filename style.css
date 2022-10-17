@@ -7,15 +7,22 @@ body{
     /*cursor: url('image-path.png'),auto*/
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #8F54CE;
+}
+
+
+
 h1{
     font-size: 562.5%;
     text-align: center;
-    font-family: 'Sacramento', cursive;
+    font-family: cursive;
     color: #8F54CE;
     margin-top: 5%;
 }
 h3{
     font-size: 30px;
+    font-family: cursive;
 }
 
 
@@ -48,7 +55,7 @@ body{
     font-size: 562.5%;
     text-align: center;
     /* font-family: cursive; */
-    font-family: 'Sacramento', cursive;
+    font-family:cursive;
     color: #8F54CE;
     transition: 0.5s;
     
@@ -374,8 +381,64 @@ body{
 
 /*============================== Project ===================================*/
 
+.project-content{
+    margin: 5%;
+}
+
+.first{
+    background-image: url("css/project/quest-to-code.png");
+    height: 250px;
+    width: 400px;
+    border: 5px solid #AFB4FF;
+    /*text-align: center;*/
+    margin-left: 12%;
+    border-radius: 5%;
+    /*float: left;*/
+    background-color: #AFB4FF;
+    background-size: 400px 250px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.first:hover{
+    box-shadow: 5px 5px 44px 6px rgb(211, 176, 242);
+}
 
 
+@media (max-width: 680px){
+    .first{
+        background-size: 360px 200px;
+        height: 250px;
+        width: 370px; 
+    }
+}
+
+@media (max-width: 390px){
+    .first{
+        background-size: 280px 180px;
+        height: 200px;
+        width: 270px; 
+    }
+}
+
+.project-content-2{
+    margin-bottom: 5%;
+}
+
+.second{
+    background-image: url("css/project/quest-to-code.png");
+    height: 250px;
+    width: 400px;
+    border: 5px solid #AFB4FF;
+    /*text-align: center;*/
+    margin-left: 12%;
+    border-radius: 5%;
+    /*float: left;*/
+    background-color: #AFB4FF;
+    background-size: 400px 250px;
+    cursor: pointer;
+    transition: 0.5s;
+}
 
 
 
@@ -423,7 +486,7 @@ body{
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
-    color: #050d18;
+    /*color: #050d18;*/
 }
 
 .info p {
