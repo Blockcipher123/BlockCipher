@@ -440,7 +440,23 @@ body{
     transition: 0.5s;
 }
 
+/*.pro-info{
+    padding: 4%;
+    padding: 3% 2%;
+}
 
+.project-style{
+    padding: 4%;
+}*/
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 1% 2%;
+}
 
 
 /* ============================= End Project ===================================*/
