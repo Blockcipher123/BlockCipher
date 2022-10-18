@@ -459,6 +459,20 @@ body{
 }
 
 
+@media (max-width: 620px){
+    .pricing-column {
+        padding: 8% 6%;
+    }
+    #pricing{
+        padding: 100px;
+        text-align: center;
+    }
+    .nice-card{
+        flex: 0 0 auto;
+        width: 130.66666667%;
+    }
+}
+
 /* ============================= End Project ===================================*/
 
 
