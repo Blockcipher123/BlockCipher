@@ -459,7 +459,7 @@ body{
 }
 
 
-@media (max-width: 620px){
+@media (max-width: 366px){
     .pricing-column {
         padding: 8% 6%;
     }
@@ -469,7 +469,7 @@ body{
     }
     .nice-card{
         flex: 0 0 auto;
-        width: 130.66666667%;
+        width: 100.66666667%;
     }
 }
 
@@ -532,4 +532,55 @@ body{
 .email{
     margin-left: 20%;
     margin-top: 5%;
+}
+
+
+.social-media{
+
+    padding-bottom: 1.5%;
+    font-size: 30px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.social-media i{
+    /*color: #4753f7;*/
+    background: #dff3fc;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    padding: 15px;
+}
+
+.fa-github:hover{
+    background: #000;
+    color: #fff;
+}
+
+
+.fa-linkedin:hover{
+    background: #0e76a8;
+    color: #fff;
+}
+
+
+.fa-discord:hover{
+    background: #7289da;
+    color: #fff;
+}
+
+
+.fa-facebook:hover{
+    background: #3b5998;
+    color: #fff;
+}
+
+
+@media (max-width: 366px){
+    .social-media{
+        font-size: 10px;
+    }
+
+
 }
