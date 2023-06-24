@@ -20,8 +20,8 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/about.css'>
     <!-- js -->
-    <script type="text/javascript" src="main.js"></script>
-    <script src='main.js'></script>
+    <!-- <script type="text/javascript" src="main.js"></script>
+    <script src='main.js'></script> -->
     <!-- fontawesome -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
     <script src="https://kit.fontawesome.com/c71c0c120a.js" crossorigin="anonymous"></script>
@@ -35,6 +35,13 @@
 </head>
 
 <body>
+    <!-- Preloader Starts -->
+<!--     <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+ -->
+
+
     <div class="contents">
         <div class="left">
         </div>
@@ -48,6 +55,7 @@
                 <a href="#project">Projects</a>
                 <a href="#about">About</a>
                 <a href="#massage">Message me</a>
+                <!-- <button onclick="darkMode()">Click me</button> -->
                 <!-- </ul> -->
             </nav>
         </div>
@@ -64,7 +72,7 @@
         </div>
         <div class="one-style">
             <div class="self-img">
-                <img src="img/self-modified.png">
+                <img src="img/blockcipher.jpg">
             </div>
         </div>
     </div>
@@ -241,6 +249,18 @@
         <a href="https://discord.com/invite/4B9YGCHzEn"><i class="fa-brands fa-discord"></i></a>
         <a href="https://www.facebook.com/Blockcipherr/"><i class="fa-brands fa-facebook"></i></a>
     </div>
+
 </body>
+
+    <!-- <script src="main.js"></script> -->
+    <script type="text/javascript">
+        jQuery(window).on('load', function() {
+            new WOW().init();
+            $('.preloader').fadeOut(500);
+        });
+
+
+    </script>
+
 
 </html>
